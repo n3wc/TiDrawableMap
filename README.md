@@ -17,6 +17,9 @@ Alloy Widget for drawing on the map using touch! works on both iOS & Android
 ## Usage
 
 Create global reference for map in alloy.js `Alloy.Globals.Map = require('ti.map');`
+```
+**_.throttle is not playing with android so the function was copied over into alloy.js to monkey patch it
+```
 Create an instance of the widget
 ```
 xml

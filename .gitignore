@@ -1,3 +1,17 @@
 # Build folder and log file
 build/
 build.log
+.DS_Store
+build.log
+build
+npm-debug.log
+tmp*.class
+*.pyc
+*.pyo
+build/
+Resources/
+Resources/*
+Resources
+.DS_Store
+*.prefs
+.settings/com.appcelerator.titanium.mobile.prefs

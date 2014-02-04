@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View id="btnView">
+			<Label id="lblConvexHull">Convex\nHull</Label>
+			<Switch id="btnConvexHull" value="true" onChange="ConvexHull"/>
+			<Button id="btnDraw" onClick="startDraw">Start Draw</Button>
+			<Button id="btnClear" onClick="clearRoute" >Clear</Button>
+		</View>
+		<ScrollView id="svPoints">
+			<Label id="lblRoute" />
+		</ScrollView>
+		<View id="mapViewContainer">
+			<Require type="widget" src="com.n3wc.TiDrawableMap" id="DrawableMap"/>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="TiDrawableMapContainer">
+		<View id="TiDrawableMapView" ns="Alloy.Globals.Map"/>
+		<View id="TiDrawableMapDrawingView"></View>
+	</View>
+</Alloy>

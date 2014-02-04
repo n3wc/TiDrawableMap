@@ -1,0 +1,14 @@
+"#TiDrawableMapContainer":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#TiDrawableMapView":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 2
+},
+"#TiDrawableMapDrawingView":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	zIndex: 1
+}

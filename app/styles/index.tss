@@ -1,0 +1,46 @@
+".container": {
+	backgroundColor:"white",
+	layout : "vertical"
+},
+"#btnView": {
+        height:"50dp",
+        width:Ti.UI.FILL,
+        backgroundColor:"#CCCCCC",
+        layout : "horizontal"
+},
+"#btnClear":{
+	 left:"25dp",
+	 top:'20dp'
+},
+"#btnConvexHull":{
+	 top:'20dp'
+},
+"#lblConvexHull":{
+	 left:'20dp',
+	 top:'20dp',
+	 font: {
+		fontSize: 10
+	}
+},
+"#btnDraw":{
+	left:'25dp',
+	 top:'20dp'
+},
+"#svPoints":{
+	 height:"75dp",
+	 width:Ti.UI.FILL,
+	 backgroundColor:"#999999"
+},
+"#mapViewContainer":{
+	 height:Ti.UI.FILL,
+	 width:Ti.UI.FILL
+},
+"#lblRoute": {
+	color: '#000',
+	font: {
+		fontSize: 8
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+

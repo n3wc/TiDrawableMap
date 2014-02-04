@@ -1,0 +1,13 @@
+{
+	"id": "com.n3wc.TiDrawableMap",
+	"name": "TiDrawableMap",
+	"description" : "lets the user draw on the map. exposes array of latitude & longitude points used in teh drawing",
+	"author": "n3wc",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2014",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}

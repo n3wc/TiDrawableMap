@@ -1,8 +1,8 @@
+$.allPoints = $.hullPoints = [];
 var args = arguments[0] || {};
 var convex_hull = require(WPATH('convex_hull'));
 var convexHull = new convex_hull;
 var useConvexHull = true;
-$.allPoints = $.hullPoints = [];
 var mapRegion;
 var route;
 var drawableWidth;
@@ -32,10 +32,10 @@ exports.addEventListener = function(listenerName, listenerFunction){
 
 $.init = function(args){
 	_args = args || {};
-	$.TiDrawableMapView.region = typeof(_args.mapRegion) != "undefined"?_args.mapRegion:mapRegion;
-	if(typeof(_args.lineColor) != "undefined")lineColor = _args.lineColor;
-	if(typeof(_args.lineWidth) != "undefined")lineWidth = _args.lineWidth;
-	if(typeof(_args.throttleTimer) != "undefined")throttleTimer = _args.throttleTimer;
+	$.TiDrawableMapView.region = typeof(_args.mapRegion) != "undefined" ? _args.mapRegion : mapRegion;
+	if(typeof(_args.lineColor) != "undefined") lineColor = _args.lineColor;
+	if(typeof(_args.lineWidth) != "undefined") lineWidth = _args.lineWidth;
+	if(typeof(_args.throttleTimer) != "undefined") throttleTimer = _args.throttleTimer;
 };
 
 $.setSizes = function() {
@@ -121,7 +121,7 @@ function addDrawing(drawPoints){
 	}
 	route = Alloy.Globals.Map.createRoute({
             name: 'TiDrawableMapRoute',
-            points: typeof(drawPoints) != "undefined"?drawPoints:$.allPoints,
+            points: typeof(drawPoints) != "undefined" ? drawPoints:$.allPoints,
             color: lineColor,
             width: lineWidth
         });
